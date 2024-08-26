@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FishGod">
+      <HintPath>..\FishGod\FishGod\bin\Release\FishGod.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\C++\WxCCd\wc\bin\Debug\netcoreapp3.1\protobuf-net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
